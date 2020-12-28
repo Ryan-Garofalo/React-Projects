@@ -1,0 +1,16 @@
+{>"layout" /}
+{<body}
+    <form method="POST" action="/add">
+        <button type="submit" class="btn btn-primary btn-block" data-toggle="modal" data-target="#formModal">Get Fact</button>
+    </form>
+  <button type="button"
+  </button>
+  <br />
+    {#recipes}
+        <div class="well">
+          <h4>{name}</h4>
+          <h3>{ingredients}</h3>
+          <h4>{directions}</h3>
+        </div>
+    {/recipes}
+{/body}
